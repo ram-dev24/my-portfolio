@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.portfolio-logo {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4b6cc1;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 100vh;
+
+}
+
+.banner-section-image {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.banner-section-heading {
+    color: white;
+    font-family: "Poppins";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.person-name {
+    color: #4b6cc1;
+}
+
+.banner-section-description {
+    color: #9aa5b1;
+    font-family: "Poppins";
+    font-size: 24px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #4b6cc1;
+    width: 100px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.about-me-section {
+    background-color: #0f0f0f;
+
+}
+
+.title {
+    color: #cced00;
+    margin-top: 30px;
+}
+
+.heading {
+    color: #cced00;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.about-me-image {
+    width: 90%;
+}
+
+.intro {
+    color: #9aa5b1;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.skills-section {
+    background-color: #191a1d;
+
+}
+
+.skill-image {
+    height: 60px;
+    width: 60px;
+}
+
+.skills-section-sub-heading {
+    color: #cced00;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-card-image {
+    width: 64px;
+    height: 64px;
+}
+
+.skills-card-title {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.projects-section {
+    background-color: #0f0f0f;
+
+}
+
+.projects-section-sub-heading {
+    color: #cced00;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projects-section-heading {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.projects-card {
+    background-color: #323f4b;
+    border-radius: 15px;
+}
+
+.projects-card-image {
+    width: 100%;
+}
+
+.projects-card-sub-title {
+    color: #9aa5b1;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.projects-card-title {
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px font-weight:200;
+    margin-top: 5px;
+}
+
+.projects-card-description {
+    color: #9aa5b1;
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+.projects-card-link {
+    color: #cced00;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.notes {
+    color: #cced00;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.service-section {
+    background-color: #191a1d;
+
+}
+
+.main-heading {
+    color: #cced00;
+    font-size: 25px;
+}
+
+.sub-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.services-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.services-card-image {
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.services-card-title {
+    color: white;
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.services-card-description {
+    color: #9aa5b1;
+    font-family: "Poppins";
+    font-size: 22px;
+}
+
+.work-done-section {
+    background-image: url("https://images.pexels.com/photos/316681/pexels-photo-316681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+
+}
+
+.hr-line {
+    background-color: white;
+    width: 60px;
+}
+
+.work-done-card-title {
+    color: white;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.work-done-card-sub-title {
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+
+#footer {
+    background-color: #222831;
+    padding: 2rem;
+    padding-bottom: 4rem;
+}
+
+#footer p {
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: all .5s;
+}
+
+
+
+
+.font-awesome {
+    margin: 1.1rem auto;
+}
+
+.font-awesome li i {
+    background-color: #0f0f0f;
+    padding: 0.6rem;
+    border: 1px solid #1f1f38;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.font-awesome li i:hover {
+    border: 1px solid #1f1f38;
+    border-radius: .5rem;
+    background: transparent;
+    color: #fff;
+}
+
+/* Scroll Top */
+#scroll-top {
+    background-color: #4db5ff;
+    color: #151527;
+    padding: 9px;
+    border-radius: 9px;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 1rem;
+    right: 4%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+
+
+/* Bottom Navigator */
+#bottom {
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+    background-color: #144272;
+}
+
+#bottom .bottom-nav {
+    height: 4rem;
+    padding: 0 2rem;
+    background-color: #191a1d;
+    border-radius: 3rem;
+    z-index: 1000;
+    display: -webkit-inline-box;
+}
+
+#bottom .bottom-nav li {
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+
+#bottom .bottom-nav ul a {
+    text-decoration: none;
+
+}
+
+#bottom .bottom-nav li:hover {
+    background-color: #4db5ff;
+}
+
+#bottom .bottom-nav li:active {
+    background-color: #4db5ff;
+}
+
+.cpy-white {
+    color: #ffffff;
+}
+
+.btn {
+    margin-left: 0 .5rem;
+    font-size: 1rem;
+    color: #4db5ff;
+    cursor: pointer;
+    padding: 0.75rem 1.2rem;
+    border: 1px solid #4db5ff;
+    border-radius: 0.4rem;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.s-between {
+    justify-content: space-between;
+}
+
+.s-around {
+    justify-content: space-around;
+}
+
+.s-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+
+.p-relative {
+    position: relative;
+}
+
+.t-white {
+    color: #fff;
+}
+
+.bg-color {
+    background-color: #1f1f38;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.f-2 {
+    font-size: 2rem;
+}
+
+.m-b-1 {
+    margin-bottom: 1rem;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.mx-1 {
+    margin: 0 1rem;
+}
+
+.m-top {
+    margin-top: 1rem;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+#bottom {
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    bottom: 0rem;
+
+}
+
+#bottom .bottom-nav {
+    height: 4rem;
+    padding: 0 2rem;
+    background-color: #191a1d;
+    border-radius: 3rem;
+    z-index: 1000;
+    display: -webkit-inline-box;
+}
+
+#bottom .bottom-nav li {
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+
+#bottom .bottom-nav ul a {
+    text-decoration: none;
+
+}
+
+#bottom .bottom-nav li:hover {
+    background-color: #4db5ff;
+}
+
+#bottom .bottom-nav li:active {
+    background-color: #4db5ff;
+}
